@@ -1,0 +1,46 @@
+body{
+	margin:0;
+	padding:0;
+}
+div.main{
+	width:750px;
+	height:1280px;
+}
+div.main header{
+	width:750px;
+	height:103px;
+	margin-top:41px;
+	background-color:#f8f8f8;
+	border-bottom:2px solid #d2d2d2;
+}
+header div.left{
+	width:100px;
+	margin:20px 30px 0;
+	float:left;
+}
+header div.title{
+	float:right;
+	font-size:34px;
+	color:#111;
+	margin-right:302px;
+	overflow:both;
+	margin-top:20px;
+}
+form{
+	margin:34px 0 0 10px;
+	font-size:27px;
+}
+form input{
+	width:550px;
+	height:50px;
+	margin:0 0 40px 50px;
+}
+form button{
+	width:190px;
+	height:76px;
+	background-color:rgb(245,113,41);
+	font-size:34px;
+	color:#fff;
+	padding:0;
+	margin:147px 50%;
+}

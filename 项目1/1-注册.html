@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<link rel="stylesheet" href="css/1.注册.css">
+</head>
+<body>
+	<div class="main">
+		<div class="outer"></div>
+		<div class="in">
+			<div class="up"></div>
+			<div class="down"></div>
+		</div>
+		<div class="inner">
+			<div class="title"></div>
+			<form action="./1-1登陆.html" method="post">
+				<input type="phone"  name="phone" placeholder="手机号："  pattern="^[1][0~9]{10}$" outinvalid="getCustomValidity('手机格式不正确')"><br>
+				<input type="text" name="text" class="check" placeholder="验证码：">
+				<div class="buto">
+				<button>获取验证码</button></div>
+				<br>
+				<input type="password" name="passwd" placeholder="设置密码：" pattern="\w{8}|\W{8}" outinvalid="getCustomValidity('密码格式不正确')"><br>
+				<input type="password" name="pwd" placeholder="确认密码："><br>
+				<select name="ueser" id="select">
+				<option value="">个人</option>
+				<option value="company">集体</option>
+				</select> 
+					<div class="sele"></div>
+					<div class="text">
+				我已阅读并同意网站用户协议
+					</div>
+			
+				<br>
+				<button type="submit">注册</button>
+				<div class="left"><a href="1-1登陆.html">登陆账号</a></div>
+				<div class="right"><a href="./1.1.1忘记密码.html">忘记密码</a></div>
+			</form>
+
+		</div>
+	</div>	
+</body>
+</html>
