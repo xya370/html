@@ -2,3 +2,108 @@
 	margin:0;
 	padding:0;
 }
+div.center{
+	width:750px;
+
+}
+header{
+	background-image:url('../外貌协会app项目图/0-images/images/2_01.jpg');
+
+}
+div.main{
+	height:412px;
+	width:412px;
+	border-radius:50%;
+	background-color:rgba(255,255,255,0.1);
+	margin-left:102px;
+	position:relative;
+}
+header a{
+	color:#fff;
+}
+header div.main #one{
+	width:118px;
+	font-size:27px;
+	position:absolute;
+	left:140px;
+	top:90px;
+}
+
+div.ims{
+	width:113px;
+	height:113px;
+	background-color:#b4b4b4;
+	border-radius:50%;
+	position:absolute;
+	left:-80px;
+	top:147px;
+	background-image:url('../外貌协会app项目图/0-images/images/2_0301.png');
+}
+span{
+	width:108px;
+	color:#fff;
+	font-size:27px;
+	position:absolute;
+	left:120px;
+	top:50px;
+
+}
+/* div.up,div.down,{
+	background-color:rgba(199,199,199,0.3);
+	border-bottom:solid 2px #c7c7c7;
+	height:66px;
+} */
+div.up{
+	position:absolute;
+	top:272px;
+	background-color:rgba(199,199,199,0.2);
+	border-bottom:solid 2px #c7c7c7;
+	height:66px;
+}
+div.down{
+	position:absolute;
+	top:338px;
+	background-color:rgba(199,199,199,0.2);
+	border-bottom:solid 2px #c7c7c7;
+	height:66px;
+}
+header #left{
+	/*float:left;*/
+	margin-left:410px;
+}
+div.other{
+	background-color:#fff;
+	height:819px;
+}
+div.image{
+	background-color:#fff;
+	border-bottom:solid 2px #c7c7c7;
+	height:66px;
+}
+a{
+	text-decoration:none;
+	color:#888;
+	font-size:27px;
+}
+div.image img{
+	margin:20px 0px 0px 23px;
+	background-color:#fff;
+}
+img{
+	margin:20px 0px 0px 23px;
+	/*background-color:#fff;*/
+}
+div.image #root{
+	float:right;
+	margin-right:21px;	
+}
+/*尾部*/
+footer{
+	height:110px;
+	background-color:#272727;
+}
+footer img{
+	margin:14px 0 0 48px;
+}
+
+
